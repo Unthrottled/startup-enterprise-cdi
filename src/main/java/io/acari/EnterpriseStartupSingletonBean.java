@@ -17,4 +17,9 @@ public class EnterpriseStartupSingletonBean {
     void shutdown(){
         System.err.println("Enterprise Singleton Bean Doing Cleanup Work before shutdown!");
     }
+
+    @Override
+    public String toString() {
+        return "EnterpriseStartupSingletonBean";
+    }
 }
